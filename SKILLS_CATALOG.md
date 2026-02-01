@@ -64,5 +64,20 @@ This catalog lists the agent skills available in this repository, imported from 
 | `clean-code` | Coding Standards | SOLID Principles, DRY, KISS | [Clean Code (Uncle Bob)](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) |
 | `documentation-templates`| Docs | Diátaxis Framework | [Diátaxis](https://diataxis.fr/) |
 
+## 📈 Growth & Marketing
+
+| Skill | Description | Key Models/Principles | Fetch Source (Standards) |
+|-------|-------------|-----------------------|--------------------------|
+| `page-cro` | Landing Page Optimization | Value Prop Design, F-Shaped Pattern, Objection Handling | [CXL (Conversion XL)](https://cxl.com/blog/), [Baymard Institute](https://baymard.com/) |
+| `copywriting` | Marketing Copy | AIDA (Attention, Interest, Desire, Action), PAS (Problem, Agitate, Solution) | [Copyhackers](https://copyhackers.com/), [Swipe Files](https://swipefiles.com/) |
+| `marketing-psychology`| Behavioral Science | Cialdini's 6 Principles, BJ Fogg Behavior Model, Loss Aversion | [Nudge (Thaler)](https://en.wikipedia.org/wiki/Nudge_theory), [Influence (Cialdini)](https://www.influenceatwork.com/principles-of-persuasion/) |
+| `seo-audit` | Technical SEO | Crawlability, Indexation, Core Web Vitals | [Google Search Central](https://developers.google.com/search/docs), [Ahrefs Blog](https://ahrefs.com/blog/) |
+| `email-sequence` | Lifecycle Marketing | Drip Campaigns, Soap Opera Sequence | [Really Good Emails](https://reallygoodemails.com/) |
+| `ab-test-setup` | Experiment Design | Statistical Significance, Null Hypothesis |   -   |
+| `analytics-tracking` | Measurement | Event Tracking, Funnel Analysis | [GA4 Docs](https://developers.google.com/analytics/devguides/collection/ga4) |
+| `pricing-strategy` | Monetization | Price Anchoring, Decoy Effect, Van Westendorp | [ProfitWell](https://www.profitwell.com/blog) |
+| `programmatic-seo` | Scaled Content | Keyword Clustering, Template Engineering | - |
+| `launch-strategy` | Go-to-Market | Product Hunt Launch, Viral Loops | [Product Hunt Handbook](https://blog.producthunt.com/) |
+
 ## Source
 All skills are sourced from [Antigravity Kit](https://github.com/cnp762/antigravity-kit), created by Vudovn.
