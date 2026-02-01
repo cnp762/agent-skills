@@ -1,7 +1,5 @@
 # Skills Catalog
 
-This catalog lists the agent skills available in this repository, imported from the reputable [Antigravity Kit](https://github.com/cnp762/antigravity-kit).
-
 ## 🎨 Frontend & UI
 
 | Skill | Description | Key Models/Principles | Fetch Source (Standards) |
