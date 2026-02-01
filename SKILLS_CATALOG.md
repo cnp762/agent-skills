@@ -77,4 +77,26 @@
 | `programmatic-seo` | Scaled Content | Keyword Clustering, Template Engineering | - |
 | `launch-strategy` | Go-to-Market | Product Hunt Launch, Viral Loops | [Product Hunt Handbook](https://blog.producthunt.com/) |
 
+## 🤖 Anthropic Official
+*Official implementations by Anthropic.*
+
+| Skill | Description | Key Models/Principles | Fetch Source (Standards) |
+|-------|-------------|-----------------------|--------------------------|
+| `skill-creator` | Skill Development Guide | Progressive Disclosure, Degrees of Freedom | [Anthropic Docs](https://docs.anthropic.com/) |
+| `anthropic-frontend-design` | Distinctive UI Design | Bold Aesthetics, Motion Design, Anti-Generic | - |
+| `anthropic-mcp-builder` | MCP Server Development | Model Context Protocol, JSON-RPC | [Model Context Protocol](https://modelcontextprotocol.io/) |
+| `anthropic-webapp-testing` | E2E Web Testing | Playwright, Browser Automation | [Playwright Docs](https://playwright.dev/) |
+| `docx` | Word Document Processing | OOXML (Open Office XML) | [Microsoft Open Specs](https://learn.microsoft.com/en-us/openspecs/) |
+| `xlsx` | Spreadsheet Processing | OOXML, Formulas, Data Analysis | [Excel Specs](https://learn.microsoft.com/en-us/openspecs/office_standards/ms-xlsx/f780b2d6-81e8-430f-8977-f0330280f836) |
+| `pdf` | PDF Manipulation | PDF Specification, Text Extraction | [Adobe PDF Spec](https://opensource.adobe.com/dc-acrobat-sdk-docs/pdfstandards/pdfreference1.7_old.pdf) |
+| `pptx` | Presentation Generation | Slide Masters, Layouts | - |
+| `doc-coauthoring` | Collaborative Editing | Track Changes, Redlining | - |
+| `internal-comms` | Enterprise Communications | Minto Pyramid Principle, Bottom Line Up Front (BLUF) | [Minto Pyramid](https://en.wikipedia.org/wiki/Minto_pyramid_principle) |
+| `brand-guidelines` | Brand Compliance | Visual Identity, Tone of Voice | - |
+| `web-artifacts-builder` | Web App Scaffolding | Single Page Applications, Components | - |
+| `algorithmic-art` | Generative Art | Canvas API, SVG | [MDN Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) |
+| `theme-factory` | UI Theme Generation | Color Theory, Contrast Ratios | [WCAG Colors](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) |
+| `slack-gif-creator` | GIF Generation | FFmpeg, Frame Animation | - |
+| `canvas-design` | 2D Graphics | Vector Graphics, Rasterization | - |
+
 
