@@ -79,5 +79,4 @@ This catalog lists the agent skills available in this repository, imported from 
 | `programmatic-seo` | Scaled Content | Keyword Clustering, Template Engineering | - |
 | `launch-strategy` | Go-to-Market | Product Hunt Launch, Viral Loops | [Product Hunt Handbook](https://blog.producthunt.com/) |
 
-## Source
-All skills are sourced from [Antigravity Kit](https://github.com/cnp762/antigravity-kit), created by Vudovn.
+
