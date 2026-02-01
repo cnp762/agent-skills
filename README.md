@@ -42,6 +42,29 @@ Create a distributable `.skill` file (zip archive):
 python3 scripts/package_skill.py skills/<skill-name> [output-dir]
 ```
 
+## 📦 Installation Workflow (For New Projects)
+
+If you are starting a new project and want to use these skills:
+
+1.  **Clone this repository** (e.g., as a submodule or tool library):
+    ```bash
+    git clone https://github.com/cnp762/agent-skills libs/agent-skills
+    ```
+
+2.  **Install Required Skills**:
+    Use the `install_skill.py` script to copy specific skills into your project's active skill directory.
+    ```bash
+    # Syntax: python3 scripts/install_skill.py <skill-name> --target <your-project-skill-dir>
+    
+    python3 libs/agent-skills/scripts/install_skill.py react-patterns --target .agent/skills
+    python3 libs/agent-skills/scripts/install_skill.py anthropic-frontend-design --target .agent/skills
+    ```
+
+    **What this does:**
+    -   Copies the full skill folder (e.g., `react-patterns/`) to your target.
+    -   Preserves the standard structure (`SKILL.md`, `scripts/`, `assets/`).
+    -   Ensures you have a clean, standalone copy of the skill ready for your agent.
+
 ## 🚀 Usage
 
 To equip an agent with a skill:
