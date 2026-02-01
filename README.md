@@ -1,26 +1,53 @@
 # Agent Skills Collection
 
-This repository serves as a centralized collection of "Agent Skills".
-The goal is to have a library of skills that can be easily imported or copied into various projects to enhance AI agent capabilities.
+A centralized library of **Agent Skills** designed to enhance AI capabilities. This repository follows the [Anthropic Skills Standard](https://github.com/anthropics/skills) and allows you to easily create, validate, and share skills.
 
-## Structure
-Each skill should be contained in its own directory with a `SKILL.md` file describing how to use it.
-Potential structure:
+## 📂 Structure
+
+The repository is organized into a comprehensive [SKILLS_CATALOG.md](SKILLS_CATALOG.md), covering:
+- **Standard Skills**: Core technical and workflow skills (e.g., `react-patterns`, `api-design`).
+- **Growth & Marketing**: Skills for CRO, SEO, copywriting, and psychology.
+- **Anthropic Official**: Verified skills from Anthropic (e.g., `docx`, `pdf`, `skill-creator`).
+
+All skills are located in the `skills/` directory.
+
+## 🛠️ Creating New Skills
+
+We provide standardized scripts to synthesize new skills quickly.
+
+### 1. Initialize a New Skill
+Use the initialization script to create a template following best practices:
+```bash
+python3 scripts/init_skill.py <skill-name> --path skills/
 ```
-skills/
-  ├── python-analysis/
-  │   ├── SKILL.md
-  │   └── ...
-  ├── web-scraping/
-  │   ├── SKILL.md
-  │   └── ...
+Example:
+```bash
+python3 scripts/init_skill.py data-analysis --path skills/
+```
+This creates:
+- `skills/data-analysis/SKILL.md` (Template)
+- `skills/data-analysis/scripts/` (For executable code)
+- `skills/data-analysis/references/` (For docs/schemas)
+- `skills/data-analysis/assets/` (For templates/files)
+
+### 2. Validate Your Skill
+Ensure your skill meets the structural requirements:
+```bash
+python3 scripts/quick_validate.py skills/<skill-name>
 ```
 
-## Usage
-To use a skill in your project:
-1.  Navigate to the specific skill folder in this repository.
-2.  Copy the `SKILL.md` and any associated scripts/resources to your project's `.agent/skills` (or equivalent) directory.
-3.  Instruct your agent to read the `SKILL.md`.
+### 3. Package Your Skill
+Create a distributable `.skill` file (zip archive):
+```bash
+python3 scripts/package_skill.py skills/<skill-name> [output-dir]
+```
 
-## Synchronizing
-Run `git pull origin main` to get the latest skills.
+## 🚀 Usage
+
+To equip an agent with a skill:
+
+1.  **Copy**: Move the `skills/<skill-name>` folder to your agent's skill directory (e.g., `.agent/skills`).
+2.  ** instruct**: Tell your agent to read `SKILLS_CATALOG.md` or the specific `SKILL.md` to understand its capabilities.
+
+## 🔄 Synchronizing
+Run `git pull origin main` to fetch the latest skills and updates.
